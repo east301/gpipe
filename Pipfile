@@ -1,0 +1,29 @@
+#
+# copyright (c) 2018 east301
+#
+# This software is released under the MIT License.
+# http://opensource.org/licenses/mit-license.php
+#
+
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+accessor = "==0.1"
+click = "==7.0"
+humanfriendly = "==4.17"
+"jinja2" = "==2.10"
+networkx = "==2.2"
+logzero = "==1.5.0"
+lxml = "==4.2.5"
+
+[dev-packages]
+"flake8" = "==3.6.0"
+ipython = "==7.2.0"
+setuptools-scm = "==3.1.0"
+twine = "==1.12.1"
+
+[requires]
+python_version = "3.6"
